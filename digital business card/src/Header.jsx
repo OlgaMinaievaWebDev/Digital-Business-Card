@@ -2,8 +2,10 @@ import image from "./assets/headshot.avif";
 
 export default function Header() {
   return (
-    <header>
-      <img src={image}></img>
+   <header>
+    <div className="image">
+    
+    </div>
       <div className="info">
         <h1>Olga Minaieva</h1>
         <h4>Frontend Developer</h4>
@@ -11,12 +13,12 @@ export default function Header() {
       </div>
       <div className="buttons">
         <button type="button" className="emailBtn">
-          <i className="fa-regular fa-envelope"></i>
+          <i className="fa-regular fa-envelope icon"></i>
           Email
         </button>
         <button type="button" className="linkdBtn">
-          <i className="fa-brands fa-linkedin-in"></i>
-          Linkedln
+          <i className="fa-brands fa-linkedin-in icon"></i>
+          LinkedIn
         </button>
       </div>
     </header>
