@@ -1,8 +1,8 @@
-import image from "./assets/headshot.avif";
+
 
 export default function Header() {
   return (
-   <header>
+   <header className="container">
     <div className="image">
     
     </div>

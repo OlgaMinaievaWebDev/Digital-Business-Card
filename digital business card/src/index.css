@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-header {
+/* Header Style */
+.container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -44,13 +45,13 @@ header {
 
 .buttons {
   display: flex;
-  padding: 0 4rem;
-  margin-bottom: 10px;
+  max-width: 300px;
+  margin-left: 30px;
   justify-content: space-between;
 }
 
 button {
-  padding: 0.5rem 1.4rem;
+  padding: 0.5rem 2rem;
   border-radius: 6px;
   border: none;
   text-align: center;
@@ -80,4 +81,22 @@ button:hover {
 
 button:active {
   transform: translateY(2px);
+}
+
+/* About section */
+
+.about, .interests {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  align-items: start;
+  text-align: start;
+  gap: 0.5rem;
+  line-height: 1.3;
+  margin-top: 1.2rem;
+}
+
+.about p {
+  color: #4a4e74;
 }
