@@ -1,6 +1,6 @@
 # Digital-Business-Card
 
-solo project using React
+solo project using React follow path @Scrimba
 -build from scratch
 separate components for
 -info
