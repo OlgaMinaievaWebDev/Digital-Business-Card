@@ -54,10 +54,11 @@ button {
   padding: 0.5rem 2rem;
   border-radius: 6px;
   border: none;
+  outline: none;
   text-align: center;
   font-size: 14px;
   cursor: pointer;
-  box-shadow: 0.5px 0.5px 2px #242428;
+  box-shadow: 0.5px 0.5px 6px #242428;
   transition: background-color 2s ease;
 }
 
@@ -68,7 +69,6 @@ button {
 .emailBtn {
   background-color: #ffffff;
   color: #23252c;
-  border: 1px solid #918e9b;
 }
 
 .linkdBtn {
@@ -85,7 +85,8 @@ button:active {
 
 /* About section */
 
-.about, .interests {
+.about,
+.interests {
   display: flex;
   flex-direction: column;
   max-width: 300px;
@@ -99,4 +100,20 @@ button:active {
 
 .about p {
   color: #4a4e74;
+}
+
+/* footer */
+footer {
+  display: flex;
+  padding: 1.4rem;
+  max-width: 360px;
+  margin: 20px auto 0;
+  background-color: #d5d4d8;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+i {
+  font-size: 30px;
+  color: #918e9b;
 }
